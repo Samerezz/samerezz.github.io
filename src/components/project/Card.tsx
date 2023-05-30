@@ -1,5 +1,4 @@
 import './Card.css';
-import { useState } from 'react';
 interface CardProps {
     title: string;
     url: string;
@@ -10,10 +9,9 @@ interface CardProps {
     isGame: boolean;
 }
 function Card(props: CardProps) {
-    const [url,setURL] = useState(props.coverURL);
     return (
         <div className='card'>
-            <img className='card-image' src={url} />
+            <img className='card-image' src={props.coverURL} />
             <h2 className='card-title'>{props.title}</h2>
             <p className='card-description'>{props.description}</p>
 

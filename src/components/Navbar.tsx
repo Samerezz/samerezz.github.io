@@ -6,12 +6,12 @@ function Navbar(){
         <nav>
             <ul>
                 <li>
-                    <NavLink to={"/About"} className={({ isActive }) => "nav-link " + (isActive ? "selected" : "un-selected")}>
+                    <NavLink to={"/about"} className={({ isActive }) => "nav-link " + (isActive ? "selected" : "un-selected")}>
                         About
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to={"/Projects"} className={({ isActive }) => "nav-link " + (isActive ? "selected" : "un-selected")}>
+                    <NavLink to={"/projects"} className={({ isActive }) => "nav-link " + (isActive ? "selected" : "un-selected")}>
                         Projects
                     </NavLink>
                 </li>

@@ -2,8 +2,10 @@ body{
   background-color: #1F1F1F;
   display: flex;
   flex-direction: column;
+  color: #EFEFF0;
 }
 hr{
   margin: 0;
   color: #EFEFF0;
+  margin-bottom: 20px;
 }
